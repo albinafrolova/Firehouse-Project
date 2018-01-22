@@ -8,6 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="index.css"></link>
 	</head>
 	<body>
-		<h1>HELLO WORLD</h1>
+		<div id="app"></div>
+		<script type="text/babel"></script>
+		React.DOM.render(<h1>HELLO WORLD</h1>, document.getElementById('app'));
 	</body>
 </html>
